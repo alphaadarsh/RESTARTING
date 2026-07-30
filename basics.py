@@ -48,3 +48,7 @@ print("Hello, " + input_name + "!")
 
 # what is concatination?
 # concatenation is the process of joining two or more strings together. 
+#  commenly used operator for concatenation is + operator. 
+# example: print("Hello, " + "World!") # output: Hello, World!
+
+#  comment used for just for documentation purpose. it is not executed by the interpreter. we can use # symbol to write a comment in python.
