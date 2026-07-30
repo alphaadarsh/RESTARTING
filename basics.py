@@ -37,3 +37,14 @@ print(height)
 
 input_name = input("Enter your name: ")
 print("Hello, " + input_name + "!")
+
+# what is data types in python?
+# data types are the classification of data items.
+# examples of data types in python are:
+# 1. string
+# 2. integer
+# 3. float
+# 4. boolean
+
+# what is concatination?
+# concatenation is the process of joining two or more strings together. 
