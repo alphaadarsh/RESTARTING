@@ -20,9 +20,12 @@ print(2 ** 3) # exponentiation or power operator
 # we have many assisgnment operators in python. some commonly used assignment operators are:
 x = 5 # assignment operator
 x = x + 3 # addition assignment operator
-x += 3 # addition assignment operator
+x += 3 # addition assignment operator  
+#  for -= same thing we can use for multiplication and division.
 
 # to many operators in python we have to start  with  multiplication and division then addition and subtraction.
+
+#  operators precedence is the order in which operators are evaluated in an expression. like in mathematics, python follows the order of operations (PEMDAS) to determine the precedence of operators. parentheses have the highest precedence, followed by exponentiation, multiplication and division, and finally addition and subtraction. when multiple operators of the same precedence appear in an expression, they are evaluated from left to right.
 
 # variable  is just a bucket to store data in it.
 name = "Alice"
@@ -57,3 +60,19 @@ print("Hello, " + input_name + "!")
 # example: print("Hello, " + "World!") # output: Hello, World!
 
 #  comment used for just for documentation purpose. it is not executed by the interpreter. we can use # symbol to write a comment in python. 
+
+#  lets talk about comparison operators in python. comparison operators are used to compare two values and return a boolean result (True or False). some commonly used comparison operators are: 
+print (5 > 3) # greater than
+print (5 < 3) # less than
+print (5 == 3) # equal to
+print (5 != 3) # not equal to
+print (5 >= 3) # greater than or equal to
+print (5 <= 3) # less than or equal to 
+
+#  lets talk about logical operators in python. logical operators are used to combine multiple conditions and return a boolean result (True or False). some commonly used logical operators are:
+print (True and False) # logical AND
+print (True or False) # logical OR
+print (not True) # logical NOT   
+#  if there is or and true in argument then it will return true. if there is and and false in argument then it will return false. if there is not then it will return opposite of the value.
+# for and operator, if both conditions are true, the result is true; otherwise, it is false. for or operator, if at least one condition is true, the result is true; otherwise, it is false. for not operator, it negates the boolean value of the condition.
+#  for not operator, it negates the boolean value of the condition. if the condition is true, not will return false; if the condition is false, not will return true. logical operators are often used in conditional statements and loops to control the flow of a program based on multiple conditions.
