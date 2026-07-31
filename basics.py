@@ -14,8 +14,13 @@ print(5 - 3) # subtraction
 print(4 * 2) # multiplication
 print(8 / 2) # division
 print(10 // 3) # floor division
-print(10 % 3) # modulus 
+print(10 % 3) # modulus  ITS CALCULATES THE REMAINDER OF THE DIVISION
+print(2 ** 3) # exponentiation or power operator
 
+# we have many assisgnment operators in python. some commonly used assignment operators are:
+x = 5 # assignment operator
+x = x + 3 # addition assignment operator
+x += 3 # addition assignment operator
 
 # to many operators in python we have to start  with  multiplication and division then addition and subtraction.
 
@@ -51,4 +56,4 @@ print("Hello, " + input_name + "!")
 #  commenly used operator for concatenation is + operator. 
 # example: print("Hello, " + "World!") # output: Hello, World!
 
-#  comment used for just for documentation purpose. it is not executed by the interpreter. we can use # symbol to write a comment in python.
+#  comment used for just for documentation purpose. it is not executed by the interpreter. we can use # symbol to write a comment in python. 
