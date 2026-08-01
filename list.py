@@ -19,3 +19,8 @@ print (marks)  # this will print the updated list marks.
 
 marks.insert(2, 75)  # this will insert the element 75 at index 2 of the list marks.
 print (marks)  # this will print the updated list marks.
+
+print (marks.index(70))  # this will print the index of the first occurrence of the element 70 in the list marks.
+
+print (100 in marks)  # this will check if the element 100 is present in the list marks and return True or False.
+
