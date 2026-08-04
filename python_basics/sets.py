@@ -1,0 +1,3 @@
+# sets => unique data type in python     collection of data which is unordered and unindexed. it does not allow duplicate members. it is mutable data type in python. we can add or remove elements from a set. we can also perform mathematical operations on sets like union, intersection, difference, symmetric difference etc.
+marks = { 90, 80, 70, 60, 50 , 95 ,95 ,95 }  # this will create a set marks with the elements 90, 80, 70, 60, and we can also not use paranthesis to create a set but it is recommended to use parentheses for clarity and readability.
+print (marks ,type(marks) , len(marks) )  # this will print
