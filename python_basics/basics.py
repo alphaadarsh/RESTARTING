@@ -76,3 +76,5 @@ print (not True) # logical NOT
 #  if there is or and true in argument then it will return true. if there is and and false in argument then it will return false. if there is not then it will return opposite of the value.
 # for and operator, if both conditions are true, the result is true; otherwise, it is false. for or operator, if at least one condition is true, the result is true; otherwise, it is false. for not operator, it negates the boolean value of the condition.
 #  for not operator, it negates the boolean value of the condition. if the condition is true, not will return false; if the condition is false, not will return true. logical operators are often used in conditional statements and loops to control the flow of a program based on multiple conditions.
+
+print("Hello, GitHub!")
