@@ -2,3 +2,5 @@
 
 #  can we store different data types in a list?  yes we can store different data types in a list.
 #  in single list we can store different data types like int, float, string, boolean, list, tuple, set, dictionary etc.
+user_input = input()
+print( "Hello" + " " + user_input )
