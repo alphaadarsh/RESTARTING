@@ -50,3 +50,7 @@ print(s8.capitalize())  # Output: Hello python is fun
 print(s8.swapcase())  # Output: HELLO PYTHON IS FUN
 print(s8.isupper())  # Output: False
 print(s8.islower())  # Output: True
+#  startswtich and endswith method in python is used to check if a string starts with a specific substring or ends with a specific substring.
+s9  = "hello python is fun"
+print(s9.startswith("hello"))  # Output: True
+print(s9.endswith("fun"))  # Output: True
