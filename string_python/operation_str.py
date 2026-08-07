@@ -39,3 +39,14 @@ s7 = "python"
 
 # Counting the number of occurrences of a substring in a string using count() method
 print(f"Occurrences of {s7} is {s6.count(s7)}")  # Output: Occurrences of 'python' in 'hello python is fun python is fun': 2
+
+# changing case of srtring using upper() and lower() methods
+s8  = "hello python is fun"  
+
+print(s8.upper())  # Output: HELLO PYTHON IS FUN
+print(s8.lower())  # Output: hello python is fun
+print(s8.title())  # Output: Hello Python Is Fun
+print(s8.capitalize())  # Output: Hello python is fun
+print(s8.swapcase())  # Output: HELLO PYTHON IS FUN
+print(s8.isupper())  # Output: False
+print(s8.islower())  # Output: True
