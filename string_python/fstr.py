@@ -15,3 +15,4 @@ sub1 = 90
 sub2 = 80
 sub3 = 70
 print(f"Subject 1: {sub1}, Subject 2: {sub2}, Subject 3: {sub3}")
+print(f"Total Marks: {sub1 + sub2 + sub3}, Average Marks: {(sub1 + sub2 + sub3) / 3}")
