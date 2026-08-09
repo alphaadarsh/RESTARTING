@@ -23,3 +23,16 @@ print(fruits.append('orange'))  # Output: None
 print(f"fruits: {fruits}")  # Output: fruits: ['apple', 'banana', 'cherry', 'orange']
 fruits.append('KIwi')
 print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange', 'KIwi']
+
+#  extend  add item in end of list  like fruits.extend(['orange','kiwi'])  # here we are adding orange and kiwi in end of list  for adding in front use insert function  like fruits.insert(0,'orange')  # here we are adding orange in front of list
+fruits.extend(['orange', 'kiwi'])
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange', 'KIwi', 'orange', 'kiwi']
+
+# remove funtion remove item from list  like fruits.remove('orange')  # here we are removing orange from list  for removing in front use pop function  like fruits.pop(0)  # here we are removing first item from list
+fruits.remove('orange')
+print(fruits)  # Output: ['apple', 'banana', 'cherry', '
+
+#  pop function remove item from list  like fruits.pop(0)  # here we are removing first item from list  for removing in front use remove function  like fruits.remove('orange')  # here we are removing orange from list
+fruits.pop(0)   
+
+print(fruits)  # Output: ['banana', 'cherry', 'KIwi', 'kiwi']
