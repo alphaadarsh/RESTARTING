@@ -39,3 +39,7 @@ print(fruits)  # Output: ['banana', 'cherry', 'KIwi', 'kiwi']
 
 # reverse  sort  count membership  index  clear  copy  insert  extend  remove  pop  del  len  max  min  sum  any  all  sorted  reversed  
 
+# REVERSE 
+# SORT
+# count
+#  membership 
