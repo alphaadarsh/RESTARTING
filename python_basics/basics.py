@@ -29,8 +29,8 @@ x += 3 # addition assignment operator
 
 # variable  is just a bucket to store data in it.
 name = "Alice"
-age = 30
-height = 5.8
+age = 30       #this is integer 
+height = 5.8   # this is float  
 
 print(name)
 print(age)
@@ -78,3 +78,17 @@ print (not True) # logical NOT
 #  for not operator, it negates the boolean value of the condition. if the condition is true, not will return false; if the condition is false, not will return true. logical operators are often used in conditional statements and loops to control the flow of a program based on multiple conditions.
 
 print("Hello, GitHub!")
+
+x  = 5.32
+y  = 10
+z  = 6
+
+# print(x + y) # addition
+# print(x - y) # subtraction
+# print(pow(x, z)) # exponentiation
+
+result  = x + y
+result  =  pow(x, z)
+result = abs(x) # absolute value
+
+print(x)
