@@ -1,4 +1,5 @@
-#  typecasting is the process of converting one data type to another data type.
+#  typecasting is the process of converting one data type to another data type. useful for user input and output. in python, we can use the built-in functions int(), float(), str(), bool() to convert data types.
+
 
 name  = "Alice"
 age = 30
@@ -15,6 +16,6 @@ age = float(age)  # converting int to float
 print(type(age))  # output: <class 'float'>
 print(age)  # output: 30.0
 
-age = str(age)  # converting float to string 
+age = str(age)  # converting float to string
 print(type(age))  # output: <class 'str'>
 print(age)  # output: 30.0
