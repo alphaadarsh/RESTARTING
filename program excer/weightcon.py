@@ -5,10 +5,13 @@ unit = input("KIlogram or Pound (K/P): ")
 if unit == "k" or unit =="K":
     converted_weight = weight * 2.205
     unit = "Pounds"
+    print (f"The converted weight is: {converted_weight:.2f} {unit}") 
 elif unit == "p" or unit =="P":
     converted_weight = weight / 2.205
     unit = "Kilograms"
+    print (f"The converted weight is: {converted_weight:.2f} {unit}") 
 else:
-    print("Invalid unit. Please enter 'K' for Kilogram or 'P' for Pound.")
-    exit()
-print (f"The converted weight is: {converted_weight:.2f} {unit}") 
+
+    print(f"Invalid {unit}. Please enter 'K' for Kilogram or 'P' for Pound.")
+   
+# print (f"The converted weight is: {converted_weight:.2f} {unit}") 100 pizza
