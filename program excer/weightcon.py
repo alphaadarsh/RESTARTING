@@ -2,7 +2,7 @@
 weight = float(input("Enter weight: "))
 unit = input("KIlogram or Pound (K/P): ")
 
-if unit == "k" or unit =="K":
+if unit =="K":
     converted_weight = weight * 2.205
     unit = "Pounds"
     print (f"The converted weight is: {converted_weight:.2f} {unit}") 
@@ -14,4 +14,4 @@ else:
 
     print(f"Invalid {unit}. Please enter 'K' for Kilogram or 'P' for Pound.")
    
-# print (f"The converted weight is: {converted_weight:.2f} {unit}") 100 pizza
+# print (f"The converted weight is: {converted_weight:.2f} {unit}") 
