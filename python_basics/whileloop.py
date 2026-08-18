@@ -27,9 +27,9 @@
 #     count += 1
 #     time.sleep(2)   # Wait 2 seconds before repeating
 \
-i = 1  
-while i  <= 5 :
-    print(i * "*")  # this will print the value of i multiplied by * which will create a pattern of *.
-    i  += 1 # this will increment the value of i by 1 after each iteration of the loop.
+# i = 1  
+# while i  <= 5 :
+#     print(i * "*")  # this will print the value of i multiplied by * which will create a pattern of *.
+#     i  += 1 # this will increment the value of i by 1 after each iteration of the loop.
 
     
