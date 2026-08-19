@@ -17,3 +17,9 @@ print(grains)
 print(beverages)
 print(grocery_list)  # this will print the 2d list grocery_list.  and also we can use index to get the value of the 2d list.
 print(grocery_list, type(grocery_list))  # this will print the 2d list grocery_list and its type. and also we can use index to get the value of the 2d list.]\
+
+for collection in grocery_list:  # this will iterate through the 2d list grocery_list and print each collection of items.\
+    for item in collection:  # this will iterate through each collection of items in the 2d list grocery_list and print each item.\
+        print(item)  # this will print each item in the 2d list grocery_list. and also we can use index to get the value of the 2d list.
+        print(item, end=" ")  # this will print each item in the 2d list grocery_list in a single line. and also we can use index to get the value of the 2d list.
+    print(collection)  # this will print each collection of items in the 2d list grocery_list. and also we can use index to get the value of the 2d list.
