@@ -2,6 +2,8 @@
 #  in while loop if statement get true it will execute the block of code and if statement get false it will not execute the block of code.
 #  in more simple code will run until get false statement.
 #  we are using not here to check if the user input is not equal to "q" and if it is not equal to "q" then it will execute the block of code and if it is equal to "q" then it will not execute the block of code.
+# i leanerd a lot
+
 food = input("What is your favorite food?(q to quit) ") 
 while not food == "q":
     print("You entered 'quit'. Exiting the loop.")
